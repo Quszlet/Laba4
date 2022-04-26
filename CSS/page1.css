@@ -1,0 +1,117 @@
+#body_td{
+    background-color: #403938;
+}
+#title{
+    color: #E0E0E0;
+    font-weight: bold;
+    font-family: Ariel, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    color: #E0E0E0;
+    font-family: Ariel, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#block1{
+    position: relative;
+    margin: auto;
+    height: 250px;
+    width: 400px;
+    background: #272323;
+    border-radius: 40px;
+}
+
+#page1_block{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+#title_block{
+    font-size: 26px;
+    color: #E0E0E0;
+    font-family: Ariel, sans-serif;
+}
+
+
+#checkbox_page1_1 {
+    transform: scale(1.7);
+    position: absolute;
+    top: 50px;
+    left: 84px;
+}
+
+#checkbox_page1_2 {
+    transform: scale(1.7);
+    position: absolute;
+    top: 85px;
+    left: 84px;
+}
+
+#checkbox_text_page1_1{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-size: 20px;
+    color: #E0E0E0;
+    font-family: Ariel, sans-serif;
+    padding-left: 10px;
+}
+
+#checkbox_text_page1_2{
+    position: absolute;
+    top: 85px;
+    left: 100px;
+    font-size: 20px;
+    color: #E0E0E0;
+    font-family: Ariel, sans-serif;
+    padding-left: 10px;
+}
+
+#change_timer{
+    position: absolute;
+    top: 120px;
+    left: 75px;
+    font-size: 20px;
+    color: #E0E0E0;
+    font-family: Ariel, sans-serif;
+    padding-left: 10px;
+}
+
+#timer_textbox{
+    position: absolute;
+    left: 95px;
+    top: 157px;
+    background-color:  #E0E0E0;
+    font-size: 15px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #272323;
+    border-radius: 5px;
+}
+
+#button_page1{
+    position: absolute;
+    top: 200px;
+    left: 141px;
+    background-color: #403938;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#button_page1:hover{
+    opacity: 0.9;
+}
+

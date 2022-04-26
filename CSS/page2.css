@@ -1,0 +1,314 @@
+#page_2{
+    position: relative;
+    margin: auto;
+    height: 270px;
+    width: 700px;
+    background: #272323;
+    border-radius: 40px;
+}
+
+#timer{
+    position: absolute;
+    left: 30px;
+    top: 16px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+
+#headline_question{
+    position: absolute;
+    left: 30px;
+    top: 45px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+
+#checkbox_page2_1{
+    position: absolute;
+    left: 30px;
+    top: 78px;
+    transform: scale(1.5);
+}
+
+#checkbox_page2_2{
+    position: absolute;
+    left: 30px;
+    top: 112px;
+    transform: scale(1.5);
+}
+
+#checkbox_page2_3{
+    position: absolute;
+    left: 30px;
+    top: 145px;
+    transform: scale(1.5);
+}
+
+#checkbox_page2_4{
+    position: absolute;
+    left: 30px;
+    top: 179px;
+    transform: scale(1.5);
+}
+
+#checkbox_text_page2_1{
+    position: absolute;
+    left: 60px;
+    top: 78px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#checkbox_text_page2_2{
+    position: absolute;
+    left: 60px;
+    top: 112px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#checkbox_text_page2_3 {
+    position: absolute;
+    left: 60px;
+    top: 145px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#checkbox_text_page2_4{
+    position: absolute;
+    left: 60px;
+    top: 179px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#textbox{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    background-color:  #E0E0E0;
+    font-size: 15px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #272323;
+    border: 2px;
+    border-radius: 5px;
+}
+
+#button_textbox{
+    position: absolute;
+    left: 30px;
+    top: 115px;
+    background-color:  #E0E0E0;
+    font-size: 15px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #272323;
+    border-radius: 5px;
+}
+
+#list{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    background-color:  #E0E0E0;
+    font-size: 15px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #272323;
+    border-radius: 5px;
+}
+
+#button_list{
+    position: absolute;
+    left: 30px;
+    top: 115px;
+    background-color:  #E0E0E0;
+    font-size: 15px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #272323;
+    border-radius: 5px;
+}
+
+#radio1{
+    position: absolute;
+    left: 30px;
+    top: 78px;
+    transform: scale(1.5);
+}
+
+#radio2{
+    position: absolute;
+    left: 30px;
+    top: 112px;
+    transform: scale(1.5);
+}
+
+#radio3{
+    position: absolute;
+    left: 30px;
+    top: 145px;
+    transform: scale(1.5);
+}
+
+#radio4{
+    position: absolute;
+    left: 30px;
+    top: 179px;
+    transform: scale(1.5);
+}
+
+#radio1_text{
+    position: absolute;
+    left: 60px;
+    top: 78px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#radio2_text{
+    position: absolute;
+    left: 60px;
+    top: 112px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#radio3_text{
+    position: absolute;
+    left: 60px;
+    top: 145px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#radio4_text{
+    position: absolute;
+    left: 60px;
+    top: 179px;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    color: #E0E0E0;
+}
+
+#button_page2{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 15px;
+    background-color:  #272323;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#button_page2:hover{
+    opacity: 0.9;
+}
+
+#buttons{
+    display: flex;
+    align-items:  flex-end;
+    justify-content: space-evenly;
+    height:260px;
+}
+
+#button_question1{
+    background-color:  gray;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#button_question2{
+    background-color:  gray;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#button_question3{
+    background-color:  gray;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#button_question4{
+    background-color:  gray;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#button_question5{
+    background-color:  gray;
+    font-size: 17px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    color: #E0E0E0;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#button_question1:hover{
+    opacity: 0.9;
+}
+
+#block_table{
+    display: flex;
+    justify-content: center;
+}
+
+#tables{
+    font-size: 25px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    border: solid;
+}
+
+td{
+    border: solid;
+}
